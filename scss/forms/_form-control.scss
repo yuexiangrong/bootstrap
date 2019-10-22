@@ -1,5 +1,3 @@
-// stylelint-disable selector-no-qualifying-type
-
 //
 // Textual form controls
 //
@@ -99,7 +97,6 @@
   min-height: $input-height-sm;
   padding: $input-padding-y-sm $input-padding-x-sm;
   @include font-size($input-font-size-sm);
-  line-height: $input-line-height-sm;
   @include border-radius($input-border-radius-sm);
 }
 
@@ -107,7 +104,6 @@
   min-height: $input-height-lg;
   padding: $input-padding-y-lg $input-padding-x-lg;
   @include font-size($input-font-size-lg);
-  line-height: $input-line-height-lg;
   @include border-radius($input-border-radius-lg);
 }
 
